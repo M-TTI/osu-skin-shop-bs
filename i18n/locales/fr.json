@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "browseSkins": "Parcourir les Skins",
+    "cart": "Panier",
+    "account": "Compte",
+    "login": "Connexion",
+    "signup": "S'inscrire",
+    "logout": "Déconnexion"
+  },
+  "home": {
+    "title": "Bienvenue sur la Boutique de Skins OSU",
+    "subtitle": "Parcourez et téléchargez les meilleurs skins OSU",
+    "browseButton": "Parcourir les Skins"
+  },
+  "skins": {
+    "title": "Skins Disponibles",
+    "search": "Rechercher des skins...",
+    "searchBy": "Rechercher par nom, description ou auteur...",
+    "filterByAuthor": "Filtrer par auteur...",
+    "found": "{count} skins trouvés | {count} skin trouvé | {count} skins trouvés",
+    "noResults": "Aucun skin ne correspond à vos critères.",
+    "clearFilters": "Effacer les Filtres",
+    "viewDetails": "Voir les Détails",
+    "addToCart": "Ajouter au Panier",
+    "alreadyOwned": "Vous possédez déjà ce skin",
+    "inCart": "Dans le Panier",
+    "alreadyInCart": "Déjà dans le Panier",
+    "loading": "Chargement des skins...",
+    "error": "Erreur lors du chargement des skins",
+    "by": "Par",
+    "downloads": "Téléchargements",
+    "rating": "Note",
+    "price": "Prix",
+    "free": "Gratuit"
+  },
+  "skinDetails": {
+    "backToSkins": "← Retour aux Skins",
+    "description": "Description",
+    "stats": "Statistiques",
+    "notFound": "Skin introuvable",
+    "loading": "Chargement..."
+  },
+  "search": {
+    "title": "Recherche et Filtres",
+    "query": "Recherche :",
+    "author": "Auteur :",
+    "priceRange": "Fourchette de Prix :",
+    "minPrice": "Prix min",
+    "maxPrice": "Prix max",
+    "to": "à",
+    "minRating": "Note Minimale :",
+    "any": "Tous",
+    "sortBy": "Trier Par :",
+    "mostDownloads": "Plus Téléchargés",
+    "highestRating": "Meilleures Notes",
+    "priceLowToHigh": "Prix : Croissant",
+    "priceHighToLow": "Prix : Décroissant",
+    "nameAZ": "Nom (A-Z)",
+    "filtered": "(filtré)"
+  },
+  "cart": {
+    "title": "Panier d'Achat",
+    "continueShopping": "← Continuer les Achats",
+    "empty": "Votre panier est vide",
+    "itemCount": "{count} articles dans le panier | {count} article dans le panier | {count} articles dans le panier",
+    "total": "Total",
+    "checkout": "Commander",
+    "clearCart": "Vider le Panier",
+    "remove": "Retirer",
+    "addedToCart": "{name} ajouté au panier",
+    "removedFromCart": "{name} retiré du panier",
+    "cartCleared": "Panier vidé"
+  },
+  "auth": {
+    "loginTitle": "Connexion à Votre Compte",
+    "signupTitle": "Créer un Compte",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le Mot de passe",
+    "username": "Nom d'utilisateur",
+    "loginButton": "Se Connecter",
+    "signupButton": "S'inscrire",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "forgotPassword": "Mot de passe oublié ?",
+    "rememberMe": "Se souvenir de moi",
+    "loginSuccess": "Connexion réussie !",
+    "signupSuccess": "Compte créé avec succès !",
+    "logoutSuccess": "Déconnexion réussie"
+  },
+  "account": {
+    "title": "Mon Compte",
+    "profile": "Profil",
+    "orders": "Mes Commandes",
+    "settings": "Paramètres",
+    "welcome": "Bon retour, {name} !",
+    "memberSince": "Membre depuis {date}",
+    "noOrders": "Vous n'avez pas encore passé de commande.",
+    "browseSkinsPrompt": "Commencez à parcourir notre collection !"
+  },
+  "footer": {
+    "about": "À Propos",
+    "aboutText": "La meilleure collection de skins OSU pour les joueurs de tous niveaux.",
+    "quickLinks": "Liens Rapides",
+    "accountLinks": "Compte",
+    "support": "Support",
+    "schoolProject": "Projet Scolaire 2024",
+    "madeWith": "Fait avec Nuxt 3 & Vue 3",
+    "copyright": "© {year} Boutique de Skins OSU. Projet Scolaire."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "validation": {
+    "required": "Ce champ est requis",
+    "email": "Veuillez entrer un email valide",
+    "minLength": "Minimum {min} caractères requis",
+    "maxLength": "Maximum {max} caractères autorisés",
+    "passwordMatch": "Les mots de passe doivent correspondre",
+    "invalidCredentials": "Email ou mot de passe invalide"
+  },
+  "currency": {
+    "free": "Gratuit",
+    "price": "{amount} $"
+  }
+}

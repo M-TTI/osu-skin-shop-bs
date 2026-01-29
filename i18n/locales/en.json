@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "home": "Home",
+    "browseSkins": "Browse Skins",
+    "cart": "Cart",
+    "account": "Account",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout"
+  },
+  "home": {
+    "title": "Welcome to OSU Skins Shop",
+    "subtitle": "Browse and download the best OSU skins",
+    "browseButton": "Browse Skins"
+  },
+  "skins": {
+    "title": "Available Skins",
+    "search": "Search skins...",
+    "searchBy": "Search by name, description, or author...",
+    "filterByAuthor": "Filter by author...",
+    "found": "{count} skins found | {count} skin found | {count} skins found",
+    "noResults": "No skins found matching your criteria.",
+    "clearFilters": "Clear Filters",
+    "viewDetails": "View Details",
+    "addToCart": "Add to Cart",
+    "alreadyOwned": "You already own this skin",
+    "inCart": "In Cart",
+    "alreadyInCart": "Already in Cart",
+    "loading": "Loading skins...",
+    "error": "Error loading skins",
+    "by": "By",
+    "downloads": "Downloads",
+    "rating": "Rating",
+    "price": "Price",
+    "free": "Free"
+  },
+  "skinDetails": {
+    "backToSkins": "← Back to Skins",
+    "description": "Description",
+    "stats": "Stats",
+    "notFound": "Skin not found",
+    "loading": "Loading..."
+  },
+  "search": {
+    "title": "Search & Filters",
+    "query": "Search:",
+    "author": "Author:",
+    "priceRange": "Price Range:",
+    "minPrice": "Min price",
+    "maxPrice": "Max price",
+    "to": "to",
+    "minRating": "Minimum Rating:",
+    "any": "Any",
+    "sortBy": "Sort By:",
+    "mostDownloads": "Most Downloads",
+    "highestRating": "Highest Rating",
+    "priceLowToHigh": "Price: Low to High",
+    "priceHighToLow": "Price: High to Low",
+    "nameAZ": "Name (A-Z)",
+    "filtered": "(filtered)"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "continueShopping": "← Continue Shopping",
+    "empty": "Your cart is empty",
+    "itemCount": "{count} items in cart | {count} item in cart | {count} items in cart",
+    "total": "Total",
+    "checkout": "Checkout",
+    "clearCart": "Clear Cart",
+    "remove": "Remove",
+    "addedToCart": "Added {name} to cart",
+    "removedFromCart": "Removed {name} from cart",
+    "cartCleared": "Cart cleared"
+  },
+  "auth": {
+    "loginTitle": "Login to Your Account",
+    "signupTitle": "Create an Account",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "username": "Username",
+    "loginButton": "Login",
+    "signupButton": "Sign Up",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "forgotPassword": "Forgot password?",
+    "rememberMe": "Remember me",
+    "loginSuccess": "Login successful!",
+    "signupSuccess": "Account created successfully!",
+    "logoutSuccess": "Logged out successfully"
+  },
+  "account": {
+    "title": "My Account",
+    "profile": "Profile",
+    "orders": "My Orders",
+    "settings": "Settings",
+    "welcome": "Welcome back, {name}!",
+    "memberSince": "Member since {date}",
+    "noOrders": "You haven't placed any orders yet.",
+    "browseSkinsPrompt": "Start browsing our collection!"
+  },
+  "footer": {
+    "about": "About",
+    "aboutText": "The best collection of OSU skins for players of all skill levels.",
+    "quickLinks": "Quick Links",
+    "accountLinks": "Account",
+    "support": "Support",
+    "schoolProject": "School Project 2024",
+    "madeWith": "Made with Nuxt 3 & Vue 3",
+    "copyright": "© {year} OSU Skins Shop. School Project."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email",
+    "minLength": "Minimum {min} characters required",
+    "maxLength": "Maximum {max} characters allowed",
+    "passwordMatch": "Passwords must match",
+    "invalidCredentials": "Invalid email or password"
+  },
+  "currency": {
+    "free": "Free",
+    "price": "${amount}"
+  }
+}
