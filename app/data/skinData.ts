@@ -21,7 +21,7 @@ export const skinData = [
     id: 3,
     name: 'Rafis HDDT',
     description: 'Perfect for high-speed gameplay',
-    price: 3.99,
+    price: 2.99,
     author: 'Rafis',
     downloads: 20000,
     rating: 4.6

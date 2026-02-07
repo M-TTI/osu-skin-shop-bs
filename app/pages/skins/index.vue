@@ -21,20 +21,20 @@ const { data: skins, error } = await useAsyncData(
 
 <template>
   <div>
-    <h1>{{ $t('skins.title') }}: {{ skin?.length ?? 0 }}</h1>
+    <h1>{{ $t('skins.title') }}: {{ skins?.length ?? 0 }}</h1>
 
     <div v-if="error">
       <p>{{ $t('common.error') }}</p>
     </div>
 
-    <div>
-      <div class="flex space-x-4 space-y-2"  v-for="skin in skins" :key="skin?.id">
-        <SkinCard
-          :skin="skin"
-          @add-to-cart="addToCart"
-          @view-skin="viewSkin"
-        />
-      </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
+      <SkinCard
+        v-for="skin in skins"
+        :key="skin?.id"
+        :skin="skin"
+        @add-to-cart="addToCart"
+        @view-skin="viewSkin"
+      />
     </div>
   </div>
 </template>

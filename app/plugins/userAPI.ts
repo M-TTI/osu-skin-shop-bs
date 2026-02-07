@@ -1,45 +1,28 @@
 export default defineNuxtPlugin(() => {
   const userAPI = {
     findAllUsers: async () => {
-      try {
-        const data = await $fetch(`api/user/users`, {
-          method: 'GET',
-        });
-
-        return { data, error: null }
-      } catch (error: any) {
-        console.error('Error fetching users', error);
-
-        return { data: null, error: error.message };
-      }
+      return await $fetch(`/api/user/users`, {
+        method: 'GET',
+      });
     },
 
     findUserById: async (id: string) => {
-      try {
-        const data = await $fetch(`api/user/${id}`, {
-          method: 'GET',
-        });
-
-        return { data, error: null }
-      } catch (error: any) {
-        console.error('Error fetching users', error);
-
-        return { data: null, error: error.message };
-      }
+      return await $fetch(`/api/user/${id}`, {
+        method: 'GET',
+      });
     },
 
-    findUserByUsername: async (username: string) => {
-      try {
-        const data = await $fetch(`api/user/login-${username}`, {
-          method: 'GET',
-        });
-
-        return { data, error: null }
-      } catch (error: any) {
-        console.error('Error fetching users', error);
-
-        return { data: null, error: error.message };
-      }
+    login: async (username: string, password: string) => {
+      return await $fetch(`/api/user/login`, {
+        method: 'POST',
+        body: { username, password },
+      });
     },
-  }
+  };
+
+  return {
+    provide: {
+      userAPI,
+    },
+  };
 });

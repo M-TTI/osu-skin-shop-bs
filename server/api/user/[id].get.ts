@@ -1,12 +1,11 @@
 import { userData } from '~/data/userData';
-import { computed } from 'vue';
 
 export default defineEventHandler((e) => {
   const id = parseInt(getRouterParam(e, 'id') ?? '', 10);
 
-  const user = computed(() => userData.find((user) => user.id === id));
+  const user = userData.find((u) => u.id === id);
 
-  if (user.value === null) {
+  if (!user) {
     throw createError({
       statusCode: 404,
       statusMessage: 'User not found',

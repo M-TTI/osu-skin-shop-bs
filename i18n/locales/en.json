@@ -136,6 +136,10 @@
     "passwordMatch": "Passwords must match",
     "invalidCredentials": "Invalid email or password"
   },
+  "payment": {
+    "successTitle": "Payment Successful!",
+    "successMessage": "Thank you for your purchase. Your skins are now available in your account."
+  },
   "currency": {
     "free": "Free",
     "price": "${amount}"

@@ -1,12 +1,11 @@
 import { skinData } from '~/data/skinData';
-import { computed } from 'vue';
 
 export default defineEventHandler((e) => {
   const id = parseInt(getRouterParam(e, 'id') ?? '', 10);
 
-  const skin = computed(() => skinData.find((skin) => skin.id === id));
+  const skin = skinData.find((s) => s.id === id);
 
-  if (skin.value === null) {
+  if (!skin) {
     throw createError({
       statusCode: 404,
       statusMessage: 'Skin not found',

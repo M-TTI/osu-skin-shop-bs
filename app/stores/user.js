@@ -4,14 +4,11 @@ import { ref, computed } from 'vue';
 export const useUserStore = defineStore('user', () => {
   const loggedUser = ref(null);
 
-  const ownsSkin = (skin) => {
-    if (loggedUser == null) {
-      return null;
+  const ownsSkin = (skinId) => {
+    if (!loggedUser.value) {
+      return false;
     }
-
-    return computed(() => {
-      return loggedUser.ownsSkin.includes(skin.id);
-    });
+    return loggedUser.value.ownsSkin.includes(skinId);
   }
 
   const logIn = (user) => {

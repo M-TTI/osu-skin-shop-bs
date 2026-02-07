@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const userStore = useUserStore();
-const ownedSkin = computed(() => userStore.ownsSkin());
+const owned = computed(() => userStore.ownsSkin(props.skin?.id));
 
 const props = defineProps<{
   skin: any;
@@ -12,7 +12,7 @@ const emit = defineEmits<{
 }>();
 
 const handleAddToCart = () => {
-  emit('view-skin', props.skin?.id);
+  emit('add-to-cart', props.skin);
 };
 
 const handleViewSkin = () => {
@@ -25,7 +25,7 @@ const handleViewSkin = () => {
     <div class="p4 rounded">
       <h2>{{ skin.name }}</h2>
       <p>{{ skin.description }}</p>
-      <div v-if="ownedSkin">
+      <div v-if="owned">
         <BaseButton variant="secondary" disabled>
           {{ $t('skins.alreadyOwned') }}
         </BaseButton>
